@@ -1,0 +1,141 @@
+body {
+  background-color: rgb(236, 232, 227);
+}
+.main-div {
+  width: 100%;
+}
+
+.top-div {
+  width: 1367px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-div menu li {
+  display: inline-flex;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+/*navbar start*/
+
+.navbar {
+  position: relative;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 50px;
+  background-color: rgb(180, 179, 185);
+  border-radius: 30px;
+}
+
+.navbar .menu li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navbar .menu li a {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(20, 19, 19);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: 0.3s ease-in-out;
+  padding: 5px;
+}
+
+.navbar .menu li a:hover {
+  color: rgb(131, 131, 136);
+  letter-spacing: 2px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+
+/*navbar finish*/
+
+/*links start*/
+
+.link .menu li {
+  display: inline-flex;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.link .menu a {
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: 0.3s ease-in-out;
+}
+
+.link .menu li a:hover {
+  color: rgb(199, 198, 202);
+  letter-spacing: 2px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+/* links finish*/
+
+/*images start*/
+
+.flex-container {
+  width: 100%;
+  height: 1400px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-container div {
+  width: 267px;
+  height: 446px;
+  padding: 5px;
+}
+
+h1 {
+  text-align: start;
+}
+
+/* bottom start*/
+
+.bottom {
+  height: 96px;
+  width: 1367;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom li {
+  display: flex;
+  justify-content: space-between;
+}
